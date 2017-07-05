@@ -60,21 +60,21 @@ canvas {
   margin: 100px;
 }
 
-#TTTa, #TTTb, #TTTd, #TTTe, #TTTg, #TTTh {
+#TTT1, #TTT2, #TTT4, #TTT5, #TTT7, #TTT8 {
   border-right: 5px solid black;
 }
-#TTTb, #TTTc, #TTTe, #TTTf, #TTTh, #TTTi {
+#TTT2, #TTT3, #TTT5, #TTT6, #TTT8, #TTT9 {
   border-left: 5px solid black;
 }
-#TTTa, #TTTb, #TTTc, #TTTd, #TTTe, #TTTf {
+#TTT1, #TTT2, #TTT3, #TTT4, #TTT5, #TTT6 {
   border-bottom: 5px solid black;
 }
-#TTTd, #TTTe, #TTTf, #TTTg, #TTTh, #TTTi {
+#TTT4, #TT5 #TTT6, #TTT7, #TTT8, #TTT9 {
   border-top: 5px solid black;
 }
 
 
-#TTTa
+#TTT1
 {
   position: absolute;
   top: 0;
@@ -83,7 +83,7 @@ canvas {
   right: 66%;
 }
 
-#TTTb
+#TTT2
 {
   position: absolute;
   top: 0px;
@@ -91,15 +91,15 @@ canvas {
   bottom: 66%;
   right: 33%;
 }
-#TTTc
+#TTT3
 {
   position: absolute;
   top: 0px;
   left: 66%;
   bottom: 66%;
-  right: 33%;
+  right: 0%;
 }
-#TTTd
+#TTT4
 {
   position: absolute;
   top: 33%;
@@ -107,7 +107,7 @@ canvas {
   bottom: 33%;
   right:66%;
 }
-#TTTe
+#TTT5
 {
   position: absolute;
   top: 33%;
@@ -115,7 +115,7 @@ canvas {
   bottom: 33%;
   right: 33%;
 }
-#TTTf
+#TTT6
 {
   position: absolute;
   top:33%;
@@ -123,7 +123,7 @@ canvas {
   bottom: 33%;
   right: 0;
 }
-#TTTg
+#TTT7
 {
   position: absolute;
   top: 66%;
@@ -131,7 +131,7 @@ canvas {
   bottom: 0;
   right: 66%;
 }
-#TTTh
+#TTT8
 {
   position: absolute;
   top: 66%;
@@ -139,7 +139,7 @@ canvas {
   bottom: 0;
   right: 33%;
 }
-#TTTi
+#TTT9
 {
   position: absolute;
   top:66%;
