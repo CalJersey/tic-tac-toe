@@ -1,8 +1,149 @@
-#board {
-  margin-top: 10px;
+
+body {
+  background-color: BurlyWood;
 }
 
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+#board {
+  background-color: BlanchedAlmond;
+  position: relative;
+  width: 50%;
+  padding-bottom: 50%;
+  left: 25%;
+}
+
+.equal {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
 .box {
+  width: 33%;
+  height: 33%;
   border: 1px solid black;
+}
+
+.reset{margin-top: 10px;}
+
+.container {width:80%; border: 3px solid #ffffff; }
+
+.buffer {
+  margin: 10px;
+  display:inline-block;
+  float: left;
+}
+
+.par1 {
+  width: 30px;
   height: 150px;
+  background: #8734f7;
+  -webkit-transform: skew(45deg);
+  -moz-transform: skew(45deg);
+  -o-transform: skew(45deg);
+  transform: skew(45deg);
+  margin: 100px;
+  position:fixed;
+}
+
+.par2 {
+  width: 25%;
+  pading-bottom: 25%;
+  background: #8734f7;
+  -webkit-transform: skew(135deg);
+  -moz-transform: skew(135deg);
+  -o-transform: skew(135deg);
+  transform: skew(135deg);
+  margin: 100px;
+}
+
+#TTTa, #TTTb, #TTTd, #TTTe, #TTTg, #TTTh {
+  border-right: 5px solid black;
+}
+#TTTb, #TTTc, #TTTe, #TTTf, #TTTh, #TTTi {
+  border-left: 5px solid black;
+}
+#TTTa, #TTTb, #TTTc, #TTTd, #TTTe, #TTTf {
+  border-bottom: 5px solid black;
+}
+#TTTd, #TTTe, #TTTf, #TTTg, #TTTh, #TTTi {
+  border-top: 5px solid black;
+}
+
+
+#TTTa
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 66%;
+  right: 66%;
+}
+
+#TTTb
+{
+  position: absolute;
+  top: 0px;
+  left: 33%;
+  bottom: 66%;
+  right: 33%;
+}
+#TTTc
+{
+  position: absolute;
+  top: 0px;
+  left: 66%;
+  bottom: 66%;
+  right: 33%;
+}
+#TTTd
+{
+  position: absolute;
+  top: 33%;
+  left: 0;
+  bottom: 33%;
+  right:66%;
+}
+#TTTe
+{
+  position: absolute;
+  top: 33%;
+  left: 33%;
+  bottom: 33%;
+  right: 33%;
+}
+#TTTf
+{
+  position: absolute;
+  top:33%;
+  left: 66%;
+  bottom: 33%;
+  right: 0;
+}
+#TTTg
+{
+  position: absolute;
+  top: 66%;
+  left: 0;
+  bottom: 0;
+  right: 66%;
+}
+#TTTh
+{
+  position: absolute;
+  top: 66%;
+  left: 33%;
+  bottom: 0;
+  right: 33%;
+}
+#TTTi
+{
+  position: absolute;
+  top:66%;
+  left: 66%;
+  bottom: 0;
+  right: 33%;
 }
